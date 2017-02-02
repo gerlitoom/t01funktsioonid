@@ -1,3 +1,8 @@
+/*
+Teisendab kilomeetrid miilideks ja ümardab
+Ette antud arv on 10 ja 4 komakohta
+*/
+
 public class kodutoo1{
 	static double miilideks(double kilomeetrid){
 		return kilomeetrid*0.621371;
@@ -21,3 +26,8 @@ public class kodutoo1{
 		System.out.println(ymarda(miilideks(10), 4));
 	}	
 }
+
+/*
+[gerltoom@greeny t01funktsioonid]$ java kodutoo1
+6.2137
+*/
